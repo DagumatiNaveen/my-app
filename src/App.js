@@ -8,6 +8,8 @@ function App() {
 
   const [loading, setloading] = useState(true);
 
+  const [error,seterror] = useState(true);
+
   const url = "https://jsonplaceholder.typicode.com/users";
 
   console.log(users);
@@ -20,6 +22,7 @@ function App() {
     });
   }, []);
   if (loading) return <p className="p-4">Loading...</p>;
+  if (error) return <p className="p-4">Error fetching data</p>;
 
   return (
     <div>
