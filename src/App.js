@@ -20,7 +20,6 @@ function App() {
     });
   }, []);
   if (loading) return <p className="p-4">Loading...</p>;
-
   return (
     <div>
       <h1>User List</h1>
