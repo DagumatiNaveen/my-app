@@ -4,7 +4,11 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import App1 from './Appl';
-import Functio from './Functio';
+// import Functio from './Functio';
+// import App1 from './Appl';
+
+import AppButton from './AppButton'; // Importing the App1 component
+import Decrement from './Decrement';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,7 +16,9 @@ root.render(
   <React.StrictMode>
     {/* <App1 /> */}
 
-    <Functio />
+    {/* <Functio /> */}
+    {/* <AppButton /> */}
+    <Decrement />
   
   </React.StrictMode>
 );
