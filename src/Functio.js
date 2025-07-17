@@ -12,7 +12,7 @@ function Functio() {
     }
   return (
   <>
-    <h1 className="text-2xl font-bold mb-4">Axios Function Example</h1>
+    <h1 className="text-2xl font-bold mb-4">Axios Function Example...</h1>
     <button onClick={(Axiosfunct)} className="bg-blue-500 text-white font-bold py-2 px-4 rounded">
       Axios Button
     </button>
