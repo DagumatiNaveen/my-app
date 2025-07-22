@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // Example of a closure in JavaScript
+    function makeCounter() {
+        let count = 0; // This variable is private to the closure
+
+        return function() {
+            count++; // Increment the count
+            console.log(`Count: ${count}`); // Log the current count
+             // Return the current count
+        };
+    }
+
+    const counter = makeCounter(); // Create a new counter instance
+counter(); 
+counter();// Call the counter function
+   </script>
+</html>
