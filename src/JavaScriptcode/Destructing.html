@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+</body>
+<script>
+
+    const Arr= [1, 2, 3];
+
+    const [first, second,Third] = Arr; // first = 1, second = 2
+
+   console.log(`First: ${first}`); // Output: First: 1
+   console.log(`Second: ${second}`); // Output: Second: 2
+    console.log(`Third: ${Third}`); // Output: Third: 3
+    // Example of destructuring in JavaScript
+    const person = {
+        name: 'John',
+        age: 30,
+        address: {
+            city: 'New York',
+            zip: '10001'
+        }
+    };
+
+    // Destructuring the person object
+    const { name, age, address: { city, zip } } = person;
+
+    console.log(`Name: ${name}`); // Output: Name: John
+    console.log(`Age: ${age}`); // Output: Age: 30
+    console.log(`City: ${city}`); // Output: City: New York
+    console.log(`Zip Code: ${zip}`); // Output: Zip Code: 10001
+</script>
+</html>
