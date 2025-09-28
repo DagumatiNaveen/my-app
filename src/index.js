@@ -8,16 +8,14 @@ import reportWebVitals from './reportWebVitals';
 // import AppButton from './AppButton';
 // import Decrement from './Decrement';
 
-import Parent from './Context/UserContext';
-
+// import {Parent }from './Context/UserContext';
+// import App from './App';
+import Application from './Application';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    // <App1 />
-    // <Functio />
-    // <AppButton />
-    // <Decrement />
-    <Parent />
+    
+    <Application />
   // </React.StrictMode>
 );
 

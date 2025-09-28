@@ -10,9 +10,7 @@ function DeepChild({user}) {
 //     return <DeepChild user={user} />;
 // }
 
-function Parent() {
+ export function Parent() {
     const [user] =useState("John Doe");
     return <DeepChild user={user} />;
-}
-
-export default Parent;
+};
